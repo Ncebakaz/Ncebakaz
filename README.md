@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Ncebakazi
-- 👀 I’m interested in .web development full stuck..
+- 👀 I’m a .web development full stuck..
 - 🌱 I’m currently learning ...Rust and Vue.js
 - 💞️ I’m looking to collaborate on linkedin,twitter,facebook,instagram
 
