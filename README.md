@@ -10,17 +10,6 @@
     <Link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <header class="header">
-        <a href='home' class='logo'>Ncebakazi Somdaka.</a
-        <i class="bx bx-menu" id="menu-icon"></i>
-        <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#testimonial">Testimonial</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
        <h1>Ncebakazi Somdaka</h1>
               <p id='bio'>
                 I like javascript and i tolarate Python, Java, Rust and Ruby.
