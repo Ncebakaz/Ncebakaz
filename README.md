@@ -15,7 +15,7 @@
                 I like javascript and i tolarate Python, Java, Rust and Ruby.
                 <a href="https://www.linkedin.com"></a>.I'm Ncebakazi Cweleka Somdaka on facebook. @Ncebakazi Somdaka everywhere.
                 - 👋 Hi, I’m @Ncebakazi
-                - 👀 I’m a .web development full stuck..
+                - 👀 I’m a full stack web developer..
              - 🌱 I’m currently learning ...nodejs and Vue.js
            - 💞️ I’m looking to collaborate on linkedin,twitter,facebook,instagram
               </p>
