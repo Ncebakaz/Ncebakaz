@@ -1,18 +1,18 @@
 <!DOCTYPE html
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Ncebakazi Somdaka">
-    <meta name="keywords" content=" Full stack developer">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ncebakazi Somdaka - portfolio</title>
-    <Link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Ncebakazi Somdaka's site" />
+    <meta http-equiv="X-AU-Compatible" content="IE-edge" />
+    <meta name="author" content="Ncebakazi Somdaka" />
+    <title>Ncebakazi Somdaka - Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <Link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <header class="header">
-        <a href='home' class='logo'>Ncebakazi Somdaka.</a>
-
+        <a href='home' class='logo'>Ncebakazi Somdaka.</a
         <i class="bx bx-menu" id="menu-icon"></i>
         <nav class="navbar">
             <a href="#home">Home</a>
