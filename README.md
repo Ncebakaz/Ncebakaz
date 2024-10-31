@@ -47,7 +47,6 @@
                 <li><a href="https://twitter.com">twitter</a></li>
               </ul> 
             </div>
-    <script src="app.js" type='modules'></script>
   </body>
 </html>
 
