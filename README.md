@@ -6,7 +6,6 @@
     <meta name="description" content="Ncebakazi Somdaka's site" />
     <meta http-equiv="X-AU-Compatible" content="IE-edge" />
     <meta name="author" content="Ncebakazi Somdaka" />
-    <title>Ncebakazi Somdaka - Portfolio</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <Link rel="stylesheet" href="index.css" />
   </head>
