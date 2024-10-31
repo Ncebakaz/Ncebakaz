@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-
+<!DOCTYPE html
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -12,7 +11,7 @@
   </head>
   <body>
     <header class="header">
-        <a href='home' class='logo'>Ncebakazi Somdaka</a>
+        <a href='home' class='logo'>Ncebakazi Somdaka.</a>
 
         <i class="bx bx-menu" id="menu-icon"></i>
         <nav class="navbar">
