@@ -232,6 +232,21 @@ h1, h2, h3, h4 {
   line-height: 1.6;
 }
 
+* --- Services Icons --- */
+.services-box i {
+  font-size: 2.8rem;
+  color: #0077b6;
+  margin-bottom: 1rem;
+  display: block;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for icons */
+.services-box:hover i {
+  color: #fff;
+}
+
+
 /* Hover Effects */
 .services-box:hover {
   transform: translateY(-8px);
