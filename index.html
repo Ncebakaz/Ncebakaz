@@ -1,148 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Ncebakazi Somdaka's portfolio" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="Ncebakazi Somdaka" />
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="index.css" />
-    <style>
-      html {
-        scroll-behavior: smooth;
-      }
-    </style>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ncebakazi Somdaka | Portfolio</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+ </head>
+<body>
 
-  <body>
-    <!-- Header / Navbar -->
-    <header class="header">
-      <a href="#home" class="logo">Ncebakazi <span>Somdaka.</span></a>
-      <i class="bx bx-menu" id="menu-icon"></i>
-      <nav class="navbar">
-        <a href="#home" class="active">Home</a>
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#services">Services</a>
-        <a href="#testimonial">Testimonials</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="home" id="home">
-      <div class="home-content">
-        <h1>Hi, I’m <span>Ncebakazi</span></h1>
-        <h3 class="text-animation">Full-Stack Developer & Marketing Manager</h3>
-        <p>Blending <strong>technology</strong> and <strong>marketing insight</strong> to build digital solutions that inspire and perform.</p>
-        
-        <div class="social-icons">
-          <a href="#"><i class="bx bxl-instagram"></i></a>
-          <a href="#"><i class="bx bxl-linkedin"></i></a>
-          <a href="#"><i class="bx bxl-github"></i></a>
-          <a href="#"><i class="bx bxl-twitter"></i></a>
-        </div>
-
-        <div class="btn-group">
-          <a href="#projects" class="btn">View My Work</a>
-          <a href="#contact" class="btn secondary">Get In Touch</a>
-        </div>
-      </div>
-      <div class="home-img">
-        <img src="./ncesg.jpg" alt="Profile photo of Ncebakazi" />
-      </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="about" id="about">
-      <div class="about-container">
-        <h2>About Me</h2>
-        <p>Hi, I’m <strong>Ncebakazi Somdaka</strong>, a self-taught <strong>Full-Stack Web Developer</strong> with a <em>National Diploma in Marketing Management</em>.</p>
-        <p>My journey blends <strong>seven years of leadership</strong> as a store manager with a passion for building modern, responsive web applications.</p>
-        <p>I work with <strong>React, Node.js, Express, MongoDB, and PostgreSQL</strong>, always aiming to create solutions that are both functional and beautiful.</p>
-        <p>When I’m not coding, you’ll probably find me experimenting with <em>coffee and creative storytelling</em>.</p>
-      </div>
-    </section>
-
-   <!-- Services Section -->
-<section class="services" id="services">
-  <h2 class="heading">My <span>Services</span></h2>
-
-  <div class="services-container">
-    <!-- Service 1 -->
-    <div class="services-box">
-      <i class='bx bx-code-alt'></i>
-      <h4>Web Development</h4>
-      <p>Building modern, responsive websites and apps that are fast, user-friendly, and scalable.</p>
-    </div>
-
-    <!-- Service 2 -->
-    <div class="services-box">
-      <i class='bx bx-palette'></i>
-      <h4>UI/UX Design</h4>
-      <p>Designing clean, engaging user interfaces with a focus on seamless user experience.</p>
-    </div>
-
-    <!-- Service 3 -->
-    <div class="services-box">
-      <i class='bx bx-mobile-alt'></i>
-      <h4>Mobile Optimization</h4>
-      <p>Ensuring your site looks perfect and runs smoothly across all mobile devices.</p>
-    </div>
-
-    <!-- Service 4 -->
-    <div class="services-box">
-      <i class='bx bx-trending-up'></i>
-      <h4>Digital Marketing</h4>
-      <p>Helping your brand grow online with effective marketing strategies & SEO.</p>
-    </div>
-  </div>
-</section>
-
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-      <h2 class="heading">Contact <span>Me</span></h2>
-      <form>
-        <div class="input-group">
-          <div class="input-box">
-            <input type="text" placeholder="Full Name" required>
-            <input type="email" placeholder="Email" required>
-          </div>
-          <div class="input-box">
-            <input type="tel" placeholder="Phone Number">
-            <input type="text" placeholder="Subject">
-          </div>
-        </div>
-        <div class="input-group-2">
-          <textarea cols="30" rows="10" placeholder="Your message"></textarea>
-          <input type="submit" value="Send Message" class="btn">
-        </div>
-      </form>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="social">
-        <a href="#"><i class="bx bxl-linkedin"></i></a>
-        <a href="#"><i class="bx bxl-github"></i></a>
-        <a href="#"><i class="bx bxl-instagram"></i></a>
-        <a href="#"><i class="bx bxl-twitter"></i></a>
-        <a href="#"><i class="bx bxl-facebook"></i></a>
-      </div>
-      <ul class="list">
+  <!-- Header/Navbar -->
+  <header>
+    <div class="navbar">
+      <h2>Ncebakazi</h2>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="#services">Services</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#testimonial">Testimonials</a></li>
       </ul>
-      <p class="copyright">© 2025 Ncebakazi Somdaka. All rights reserved.</p>
-    </footer>
+    </div>
+  </header>
 
-    <script src="index.js"></script>
-  </body>
-</html>
-<!---
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-text">
+      <h1>Hi, I’m <span>Ncebakazi Somdaka</span></h1>
+      <p>A passionate Full Stack Web Developer & Marketing Professional.  
+      I blend creativity, logic, and leadership to build meaningful digital experiences.</p>
+      <a href="#about" class="btn">About Me</a>
+      <a href="#services" class="btn">View My Work</a>
+    </div>
+    <div class="hero-img">
+      <img src="https://via.placeholder.com/400" alt="Ncebakazi Somdaka">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="https://via.placeholder.com/300" alt="About Ncebakazi">
+    </div>
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>I’m a self-made Full Stack Web Developer with a Marketing Management background.  
+      Skilled in HTML, CSS, JavaScript, React, Node.js, and database technologies, I love solving problems and creating responsive, user-friendly applications.</p>
+      <p>With 7 years of leadership as a Store Manager and a diploma in Marketing, I bring both technical and business insights into every project.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <h2 class="heading">My <span>Services</span></h2>
+
+    <div class="services-container">
+      <div class="services-box">
+        <i class='bx bx-code-alt'></i>
+        <h4>Web Development</h4>
+        <p>Building modern, responsive websites and apps that are fast, user-friendly, and scalable.</p>
+      </div>
+      <div class="services-box">
+        <i class='bx bx-palette'></i>
+        <h4>UI/UX Design</h4>
+        <p>Designing clean, engaging user interfaces with a focus on seamless user experience.</p>
+      </div>
+      <div class="services-box">
+        <i class='bx bx-mobile-alt'></i>
+        <h4>Mobile Optimization</h4>
+        <p>Ensuring your site looks perfect and runs smoothly across all mobile devices.</p>
+      </div>
+      <div class="services-box">
+        <i class='bx bx-trending-up'></i>
+        <h4>Digital Marketing</h4>
+        <p>Helping your brand grow online with effective marketing strategies & SEO.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Ncebakazi Somdaka | All Rights Reserved</p>
+  </footer> 
 Ncebakaz/Ncebakaz is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
