@@ -1,246 +1,176 @@
-You said:
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Ncebakazi Somdaka's site" />
-    <meta http-equiv="X-AU-Compatible" content="IE-edge" />
-    <meta name="author" content="Ncebakazi Somdaka" />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <Link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
-    <body>
-    <header class="header">
-        <a href="#home" class="logo">Ncebakazi
-            <span>Somdaka.</span></a>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Ncebakazi Somdaka's portfolio" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="Ncebakazi Somdaka" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="index.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
 
-        <i class="bx bx-menu" id="menu-icon"></i>
+    /* Fade-in animation */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 1s ease-out, transform 1s ease-out;
+    }
+    .fade-in.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
 
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#education">Education</a>
-            <a href="#services">Services</a>
-            <a href="#testimonial">Testimonials</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+    /* Typing effect */
+    .typing {
+      border-right: 2px solid var(--accent-color, #ff6600);
+      white-space: nowrap;
+      overflow: hidden;
+      display: inline-block;
+      animation: typing 4s steps(30, end), blink .7s infinite;
+    }
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+  </style>
+</head>
 
-    <section class="home" id="home">
-        <div class="home-content">
-            <h1>Hi, Its<span>Ncebakazi </span></h1>
-            <h3 class="text-animation">I'm a Marketing Manager <span></span></h3>
-            
-            <div class="social-icons">
-                <a href="#"><i class="bx1-instagram"></i></a>
-                <a href=" #"><i class="bx bx1-linkedin"></i></a>
-                <a href="#"><i class="bx bx1-github"></i></a>
-                <a href="#"><i class="bx bx1-twitter"></i></a>
-            </div>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <a href="#home" class="logo">Ncebakazi <span>Somdaka.</span></a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-            <div class="btn-group">
-                <a href="#" class="btn">Hire</a>
-                <a href="#contact" class="btn">Contacts</a>
-            </div>
-        </div>
-        <div class="home-img">
-            <img src="./ncesg.jpg" alt="" />
-        </div>
-    </section>
+  <!-- Hero -->
+  <section class="home" id="home">
+    <div class="home-content fade-in">
+      <h1>Hi, I’m <span>Ncebakazi</span></h1>
+      <h3 class="typing">Full-Stack Developer & Marketing Manager</h3>
+      <p>Blending <strong>technology</strong> and <strong>marketing insight</strong> to build digital solutions that inspire and perform.</p>
+      
+      <div class="social-icons">
+        <a href="#"><i class="bx bxl-instagram"></i></a>
+        <a href="#"><i class="bx bxl-linkedin"></i></a>
+        <a href="#"><i class="bx bxl-github"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+      </div>
 
-  
- <div class="home-img">
-            <img src="./meO.jpg" alt="" />
-        </div>
-                       About Section 
-<section class="about" id="about">
-  <div class="about-container">
-    <h2>About Me</h2>
-    <p>
-      Hi, I’m <strong>Ncebakazi Somdaka</strong>, a self-taught 
-      <strong>Full-Stack Web Developer</strong> with a 
-      <em>National Diploma in Marketing Management</em>.
-    </p>
-    <p>
-      My journey blends <strong>seven years of leadership</strong> 
-      as a store manager with a passion for building modern, 
-      responsive web applications.
-    </p>
-    <p>
-      I work with <strong>React, Node.js, Express, MongoDB, and PostgreSQL</strong>, 
-      always aiming to create solutions that are both functional and beautiful.
-    </p>
-    <p>
-      When I’m not coding, you’ll probably find me experimenting with 
-      <em>coffee and creative storytelling</em>.
-    </p>
-  </div>
-</section>
-
-    </section>
-
-     <header class="hero" id="home">
-  <div class="hero-content">
-    <h1>Hi, I’m <span>Ncebakazi Somdaka</span></h1>
-    <h2>Full-Stack Web Developer & Creative Problem Solver</h2>
-    <p>
-      Blending <strong>technology</strong> and <strong>marketing insight</strong> 
-      to build digital solutions that inspire and perform.
-    </p>
-    <div class="hero-buttons">
-      <a href="#projects" class="btn primary">View My Work</a>
-      <a href="#contact" class="btn secondary">Get In Touch</a>
+      <div class="btn-group">
+        <a href="#projects" class="btn">View My Work</a>
+        <a href="#contact" class="btn secondary">Get In Touch</a>
+      </div>
     </div>
-  </div>
-</header> 
+    <div class="home-img fade-in">
+      <img src="./ncesg.jpg" alt="Profile photo of Ncebakazi" />
+    </div>
+  </section>
 
-    <section class="services" id="services>
-                <h2 class=" heading">Services</h2>
+  <!-- About -->
+  <section class="about fade-in" id="about">
+    <div class="about-container">
+      <h2>About Me</h2>
+      <p>Hi, I’m <strong>Ncebakazi Somdaka</strong>, a self-taught <strong>Full-Stack Web Developer</strong> with a <em>National Diploma in Marketing Management</em>.</p>
+      <p>My journey blends <strong>seven years of leadership</strong> as a store manager with a passion for building modern, responsive web applications.</p>
+      <p>I work with <strong>React, Node.js, Express, MongoDB, and PostgreSQL</strong>, always aiming to create solutions that are both functional and beautiful.</p>
+      <p>When I’m not coding, you’ll probably find me experimenting with <em>coffee and creative storytelling</em>.</p>
+    </div>
+  </section>
 
-        <div class="services-container">
-            <div class="services-box">
-                <div class="services-info">
-                    <h4>UI Design</h4>
-                    <p>UI (User Interface) design for a website is the process of crafting the visual layout and interactive elements that enable users to navigate and interact with the site efficiently. It focuses on creating an intuitive, aesthetically pleasing, and user-friendly experience by designing clear menus, buttons, and other interactive elements that are easy to use and accessible. Effective UI design incorporates principles such as consistency, hierarchy, and responsiveness, ensuring that the site adapts seamlessly to different devices and screen sizes. A well-designed UI not only enhances usability but also contributes to the overall branding and user satisfaction, leading to better engagement and retention.</p>
+  <!-- Services -->
+  <section class="services fade-in" id="services">
+    <h2 class="heading">Services</h2>
+    <div class="services-container">
+      <div class="services-box">
+        <i class="bx bx-palette"></i>
+        <h4>UI Design</h4>
+        <p>I design intuitive, aesthetically pleasing, and user-friendly website interfaces.</p>
+      </div>
+      <div class="services-box">
+        <i class="bx bx-code-alt"></i>
+        <h4>Frontend Development</h4>
+        <p>Building responsive, fast, and engaging user experiences with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="services-box">
+        <i class="bx bx-server"></i>
+        <h4>Backend Development</h4>
+        <p>Creating secure, scalable, and reliable backend systems with Node.js, Python, and databases.</p>
+      </div>
+      <div class="services-box">
+        <i class="bx bx-check-shield"></i>
+        <h4>Testing</h4>
+        <p>Ensuring sites work across all devices and browsers with functional and performance testing.</p>
+      </div>
+    </div>
+  </section>
 
-                </div>
-            </div>
-
-            <div class="services-box">
-                <div class="services-info">
-                    <h4>Frontend Development</h4>
-                    <p>Frontend development for a website involves creating the part of the site that users directly interact with. It encompasses the design, structure, and behavior of web pages using languages such as HTML, CSS, and JavaScript. Frontend developers are responsible for ensuring that a website is visually appealing, responsive, and functional across different devices and browsers. They implement user interfaces, optimize page load times, and ensure smooth navigation by writing clean and efficient code. Frontend development also involves integrating APIs and interactive elements, enhancing user experience by creating dynamic, real-time content and responsive features. The goal of frontend development is to deliver a seamless, engaging, and intuitive experience for visitors..</p>
-
-                </div>
-            </div>
-
-            <div class="services-box">
-                <div class="services-info">
-                    <h4>Backend Development</h4>
-                    <p>Backend development for a website involves the server-side components that handle the data processing, storage, and overall functionality behind the scenes. It includes building and maintaining the server, database, and application logic that support the frontend user interface. Backend developers use programming languages such as Python, Ruby, PHP, Java, or Node.js to create APIs, manage databases, and ensure secure data transactions. They also work with server configurations, security protocols, and data management to ensure the website performs efficiently and can handle user requests. The goal of backend development is to create a stable, scalable, and secure infrastructure that allows the website to function smoothly and deliver dynamic content to the user..</p>
-
-                </div>
-            </div>
-
-            <div class="services-box">
-                <div class="services-info">
-                    <h4>Testing</h4>
-                    <p>Testing for a website is a crucial phase in the development process, ensuring that the site functions as intended across various devices, browsers, and user scenarios. It involves several types of testing, including functional testing to verify that features work correctly, usability testing to ensure an intuitive user experience, and performance testing to assess how well the site handles traffic and load times. Security testing is also essential to identify vulnerabilities and protect user data. Additionally, responsive testing checks that the website adapts seamlessly to different screen sizes, and cross-browser testing ensures consistent behavior across different browsers. Effective testing helps identify bugs, improve site reliability, and enhance overall user satisfaction by delivering a high-quality, error-free experience..</p>
-
-                </div>
-            </div>
+  <!-- Contact -->
+  <section class="contact fade-in" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <form>
+      <div class="input-group">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" required>
+          <input type="email" placeholder="Email" required>
         </div>
-    </section>
-
-    <section class="testimonial" id="testimonial">
-        <div class="testimonial-box">
-            <h2 class="heading">Testimonials</h2>
-
-            <div class="wrapperr">
-                <div class="testimonial-item">
-                    <img src="./2024.jpg" alt="" />
-                    <h2>Creativity</h2>
-                    <div class="rating">
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                    </div>
-                    <p>Seeing the card is a sign that is time to focus inward work on your skills. Discover your talents, and use your imagination. Unleash your inner artist doing so will boost your self-esteem and sense of competence. It does wonders for your sense of purpose and contributes to your community.</p>
-
-                </div>
-
-                <div class="testimonial-item">
-                    <img src="./yes.jpg" alt="" />
-                    <h2>Maintain Displine</h2>
-                    <div class="rating">
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                    </div>
-                    <p>That day you're waiting for will come. Maintain discipline. You're geeting closer to your end goal there's no need to over extend yourself. Guard</p>
- your energy to remain focused. It will pay off. It's a climb not an levator ride.
-                </div>
-
-                <div class="testimonial-item">
-                    <img src="./comb.jpg" alt="" />
-                    <h2>Peaceful</h2>
-                    <div class="rating">
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                        <i class='bx bxs-star' id="star"></i>
-                    </div>
-                    <p>Applaying honesty and light daily is a fast track to creating a peaceful and meaningful life. It's how you find solutions and comfort. Release worries by speaking your truth and expressing emotions regulary. Open up for the best is yet to come.</p>
-
-                </div>
-            </div>
+        <div class="input-box">
+          <input type="tel" placeholder="Phone Number">
+          <input type="text" placeholder="Subject">
         </div>
-    </section>
+      </div>
+      <div class="input-group-2">
+        <textarea cols="30" rows="10" placeholder="Your message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+      </div>
+    </form>
+  </section>
 
-    <section class="contact" id="contact>
-                <h2 class=" heading">Contact <span>Me</span></h2>
+  <!-- Footer -->
+  <footer class="footer fade-in">
+    <div class="social">
+      <a href="#"><i class="bx bxl-linkedin"></i></a>
+      <a href="#"><i class="bx bxl-github"></i></a>
+      <a href="#"><i class="bx bxl-instagram"></i></a>
+      <a href="#"><i class="bx bxl-twitter"></i></a>
+      <a href="#"><i class="bx bxl-facebook"></i></a>
+    </div>
+    <ul class="list">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <p class="copyright">© 2025 Ncebakazi Somdaka. All rights reserved.</p>
+  </footer>
 
-        <form action="">
-            <div class="input-group">
-                <div class="input-box">
-                    <input type="text" placeholder="Full Name">
-                    <input type="email" placeholder="Email">
-                </div>
-                <div class="input-box>
-                        <input type=" Number" aria-placeholder="Phone Number>
-                        <input type=" text" placeholder="Subject">
-                </div>"
-            </div>
-
-            <div class="input-group-2">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
-                <input type="submit" value="Send Message" class="btn">
-            </div>
-        </form>
-    </section>
-
-    <footer class="footer">
-        <div class="social">
-            <a href="#"><i class="bx bx1-linkedin"></i></a>
-            <a href="#"><i class="bx bx1-github"></i></a>
-            <a href="#"><i class="bx bx1-instagram"></i></a>
-            <a href="#"><i class="bx bx1-twitter"></i></a>
-            <a href="#"><i class="bx bx1-facebook"></i></a>
-        </div>
-
-        <ul class="list">
-            <li>
-                <a href="#">FAQ</a>
-            </li>
-
-            <li>
-                <a href="#">Services</a>
-            </li>
-
-            <li>
-                <a href="#">About Me</a>
-            </li>
-
-            <li>
-                <a href="#">Contact</a>
-            </li>
-
-            <li>
-                <a href="#">Testimonials</a>
-            </li>
-        </ul>
-        <p class="copyright">
-
-        </p>
-    </footer>
-    <script src='index.js'></script>
-  </body>
+  <script>
+    // Scroll reveal
+    const faders = document.querySelectorAll('.fade-in');
+    const appearOptions = { threshold: 0.2 };
+    const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('show');
+        observer.unobserve(entry.target);
+      });
+    }, appearOptions);
+    faders.forEach(fader => {
+      appearOnScroll.observe(fader);
+    });
+  </script>
+</body>
 </html>
 Ncebakaz/Ncebakaz is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
