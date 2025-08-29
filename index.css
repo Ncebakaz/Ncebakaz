@@ -286,6 +286,17 @@ form .btn {
   margin-top: 15px;
   display: inline-block;
 }
+/* Scroll Progress Bar */
+#progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%; /* Start empty */
+  height: 5px;
+  background: linear-gradient(90deg, #6c63ff, #00c6ff);
+  z-index: 10000;
+  transition: width 0.25s ease-out;
+}
 
 /* -----------------------
    Footer
