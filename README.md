@@ -1,6 +1,6 @@
-## Hi there 👋
+ Hi there 👋
 
-**Ncebakaz/Ncebakaz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Ncebakaz/Ncebakaz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
